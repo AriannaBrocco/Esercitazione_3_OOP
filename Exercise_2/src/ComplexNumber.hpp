@@ -21,10 +21,10 @@ struct ComplexNumber
 
 };
 
-
+// Definizione di operatori e funzioni
 ostream& operator<<(ostream& os, const ComplexNumber &c);
 
-ComplexNumber operator+(const ComplexNumber &c1, const ComplexNumber &c2);  // Definisco operatore +
+ComplexNumber operator+(const ComplexNumber &c1, const ComplexNumber &c2);
 
 ComplexNumber operator==(const ComplexNumber &c1, const ComplexNumber &c2);
 
